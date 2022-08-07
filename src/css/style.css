@@ -1,34 +1,165 @@
-.container{}
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #f1f3f5;
+}
 
-.header{}
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header{
+  background-image: linear-gradient(rgb(25 1 122 / 79%), rgb(25 1 122 / 79%)), url("../img/imagemFundo.png");
+  min-height: 562px;
+  padding: 50px;
+  background-size: cover;
+}
 .header__feature{}
-.header__feature img{}
-.header__feature h1{}
-.header__feature p{}
-.header__feature p strong{}
-.header__feature a{}
+.header__feature img{
+  margin-bottom: 50px;
+}
+.header__feature h1{
+  margin-bottom: 32px;
+  font-size: 48px;
+  font-weight: 48px;
+  color: #fff;
+}
+.header__feature p{
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #F1F3F5;
+}
+.header__feature p strong{
+  display: inline-block;
+  margin: 32px 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #F1F3F5;
+}
+.header__feature a{
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #BC00FF;
+  padding: 12px 50px;
+  border-radius: 8px;
+}
 
-.main{}
-.main__vacant-job{}
-.main__vacant-job h2{}
+.main{
+}
+.main h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
-.vacant-job__list{}
-.vacant-job__item{}
-.vacant-job__item h3{}
-.vacant-job__item p{}
-.vacant-job__tags{}
-.vacant-job__tags span{}
-.vacant-job__btn{}
+.main__vacant-job{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__vacant-job--left{
+  width: 58%;
+}
+
+.vacant-job__list{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;  
+}
+
+.vacant-job__item{
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 38px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.vacant-job__item h3{
+  font-size: 22px;
+  line-height: 33px;
+  color: #212529;
+  font-weight: 600;
+}
+.vacant-job__item p{
+  color: #343A40; 
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+}
+.vacant-job__local{}
+.vacant-job__local span{
+  color: #343A40;
+  font-size: 14px;
+  font-weight: 400;
+}
+.vacant-job__btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
 .vacant-job__btn a{}
+.vacant-job__btn a:first-child{
+  background-color: #DEE2E6;
+  padding: 7px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #343A40;
+  text-decoration: none;
+}
+.vacant-job__btn a:last-child{
+  background-color: #BC00FF;;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: none;
+}
 
-.vacant-job__selecteds{}
-.vacant-job__selecteds h3{}
+.vacant-job__selecteds{  
+  background-color: #ffffff;
+  padding: 32px;
+}
+.vacant-job__selecteds h3{
+  margin-bottom: 32px;
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 600;
+}
 
-.vacant-job__selected-list{}
-.vacant-job__selected-item{}
-.vacant-job__selected-feature{}
-.vacant-job__selected-feature h4{}
-.vacant-job__selected-feature a{}
+.vacant-job__selected-list{
+  display: flex;
+  flex-direction: column;
+}
+.vacant-job__selected-item{
+  border-bottom: 1px solid #F1F3F5;
+  padding: 32px 0;
+}
+.vacant-job__selected-feature{
+  display: flex;
+  justify-content: space-between;
+}
+.vacant-job__selected-feature h4{
+  width: 85%;
+}
+.vacant-job__selected-feature a{
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+}
 .vacant-job__selected-feature a img{}
-.vacant-job__selected-tags{}
-.vacant-job__selected-tags span{}
+.vacant-job__selected-tags{
+  margin-top: 20px;
+}
+.vacant-job__selected-tags span{
+  margin-right: 32px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
