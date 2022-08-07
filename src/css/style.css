@@ -96,6 +96,7 @@ body{
   color: #343A40;
   font-size: 14px;
   font-weight: 400;
+  margin-right: 32px;
 }
 .vacant-job__btn{
   display: flex;
