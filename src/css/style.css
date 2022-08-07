@@ -1,0 +1,34 @@
+.container{}
+
+.header{}
+.header__feature{}
+.header__feature img{}
+.header__feature h1{}
+.header__feature p{}
+.header__feature p strong{}
+.header__feature a{}
+
+.main{}
+.main__vacant-job{}
+.main__vacant-job h2{}
+
+.vacant-job__list{}
+.vacant-job__item{}
+.vacant-job__item h3{}
+.vacant-job__item p{}
+.vacant-job__tags{}
+.vacant-job__tags span{}
+.vacant-job__btn{}
+.vacant-job__btn a{}
+
+.vacant-job__selecteds{}
+.vacant-job__selecteds h3{}
+
+.vacant-job__selected-list{}
+.vacant-job__selected-item{}
+.vacant-job__selected-feature{}
+.vacant-job__selected-feature h4{}
+.vacant-job__selected-feature a{}
+.vacant-job__selected-feature a img{}
+.vacant-job__selected-tags{}
+.vacant-job__selected-tags span{}
